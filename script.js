@@ -12,6 +12,7 @@ const form=document.querySelector("form");
 const ol =document.querySelector("ol");
 const firstinput=document.querySelector(".firstinput");
 const writedata=(data)=>{
+    ol.innerHTML=""
 data.forEach((item)=>{
     ol.innerHTML+=`<div class="row">
                     <input class="lastinput" type="radio">
